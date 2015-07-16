@@ -17,3 +17,6 @@ Note:
   
 5.How to use a child object are able to be stored in datastore:
 	Please refer to Manager.java
+	
+6.How to create and use embedded class:
+	Please refer to Developer.java
