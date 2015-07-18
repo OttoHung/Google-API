@@ -7,6 +7,7 @@ import javax.jdo.annotations.PrimaryKey;
 
 import com.google.appengine.api.datastore.Key;
 
+//Java Data Object class declaration
 @PersistenceCapable													//Declare this class as capable of being stored and retrieved from datastore with JDO.
 public class User {
 	

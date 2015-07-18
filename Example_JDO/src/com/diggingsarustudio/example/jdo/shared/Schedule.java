@@ -3,7 +3,8 @@ package com.diggingsarustudio.example.jdo.shared;
 import java.io.Serializable;
 import java.util.Date;
 
-public class Schedule implements Serializable {
+//Class serialization declaration
+public class Schedule implements Serializable {			//Declare serializable class
 
 	/**
 	 * this UID is generated automatically.
@@ -16,19 +17,19 @@ public class Schedule implements Serializable {
 	
 	
 	public Date getWhen() {
-		return when;
+		return this.when;
 	}
 	public void setWhen(Date when) {
 		this.when = when;
 	}
 	public String getWhere() {
-		return where;
+		return this.where;
 	}
 	public void setWhere(String where) {
 		this.where = where;
 	}
 	public String getWhom() {
-		return whom;
+		return this.whom;
 	}
 	public void setWhom(String whom) {
 		this.whom = whom;
